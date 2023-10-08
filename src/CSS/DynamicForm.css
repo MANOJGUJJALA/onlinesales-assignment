@@ -1,0 +1,93 @@
+/* DynamicForm.css */
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+  
+.form-field {
+    margin-bottom: 15px;
+}
+  
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+  
+input[type="text"],
+select,
+input[type="checkbox"],
+input[type="radio"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+  
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+  
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+button:hover {
+    background-color: #45a049;
+}
+  
+.submit-button {
+    margin-top: 20px;
+}
+
+
+/* DynamicForm.css */
+
+/* ... (existing styles) ... */
+
+/* Style for radio buttons */
+input[type="radio"] {
+    margin-right: 10px; /* Add some space between radio buttons */
+  }
+  
+  /* Style for checkboxes */
+  input[type="checkbox"] {
+    margin-right: 10px; /* Add some space between checkboxes */
+  }
+  
+  /* Style for labels of radio buttons and checkboxes */
+  label {
+    display: flex; /* Align labels and input elements horizontally */
+    /* align-items: center;  */
+    /* Center items vertically */
+  }
+  
+  /* ... (existing styles) ... */
+  
+  
+
+  .form-buttons button {
+    margin-right: 10px; /* Adjust the right margin to reduce the space between buttons */
+}
+
+.custom-input-class {
+    width: 200px; /* Adjust the width according to your preference */
+  }
